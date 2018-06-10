@@ -1,0 +1,151 @@
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-image .5s;
+    background-image:url("../images/background.jpg");
+    height:100%;
+    margin:0;
+}
+
+#maintext{
+    color:white;
+    font-family:compass;
+}
+h2 {
+	color:orange;
+	size:30px;
+	font-family:Agency FB,Sans Serif;
+}
+
+.move {
+	transition:0.5s;
+}
+li { 
+    margin:0; 
+    padding:5; 
+    list-style:none; 
+    position:relative; 
+    float:left; 
+	font-family:comfortaa;
+}
+
+h3 {
+	font-family:josefin sans;
+	color:#C1C1C1;
+	size:20px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1c1b1b;
+    background-image: url("../images/back.png");
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+#mySidenav{
+    transition: 1s;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: width 2s;
+}
+table {
+	width:40%;
+	position:relative;
+}
+a {
+	text-decoration:none;
+	color:black;
+}
+a:hover {
+	color:orange;
+	transition:0.125s;
+}
+button {
+	width: 15%;
+    height: 50px;
+    background: rgb(250, 157, 7);
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ffa700;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Century Gothic;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+button:hover {
+    background: #ff6c00;
+	border:#ffa700;
+}
+.t {
+	color:orange;
+}
+.reg {
+	font-family:Comfortaa;
+	size:25px;
+	font-weight:bold;
+}
+.reg1:hover{
+	color:orange;
+	transition:0.125s;
+}
+.reg1 {
+	font-family:comfortaa;
+	color:black;
+}
+tr:nth-child(even) {
+	background-color:grey;
+}
+tr:nth-child(odd) {
+	background-color:#E8E8E8;
+}
+td {
+	padding:15px;
+	padding-left:100px;
+	text-align:left;
+	font-family:Comfortaa;
+}
+	
+.sidenav li{
+    transition: font-size 0s;
+}
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#sideDrawer:hover {
+    color:#ff7600;
+}
+
+#Calendar,#Register,#History,#Settings,#About {
+    width:100%;
+}

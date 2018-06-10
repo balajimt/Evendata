@@ -1,0 +1,219 @@
+body {
+    background: url('../images/background.jpg') no-repeat fixed center center;
+    background-size: cover;
+    font-family: Montserrat;
+    transition: background 0.75s;
+}
+
+.logo {
+    width: 248px;
+    height: 89px;
+    background: url('../images/logo.png') no-repeat;
+    margin: 30px auto;
+}
+
+.create-block {
+    width: 500px;
+    padding: 20px;
+    background: #e6e6e6;
+    border-radius: 5px;
+    border-top: 5px solid #69563f;
+    margin: 0 auto;
+}
+
+.create-block h1 {
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.create-block input {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding: 0 20px 0 50px;
+    outline: none;
+    transition: 0.6s;
+}
+
+.create-block select {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding: 0 20px 0 50px;
+    outline: none;
+    transition: 0.6s;
+ -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;       /* remove default arrow */
+   background-image: url('..images/dropdown.png');
+}
+
+.create-block input#eventName {
+    background: #fff url('../images/events.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.create-block input#eventName:focus {
+    background: #fff url('../images/events.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.create-block input#eventDate {
+    background: #fff url('../images/calendar.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.create-block input#eventDate:focus {
+    background: #fff url('../images/calendar.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.create-block input#eventTime {
+    background: #fff url('../images/time.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.create-block input#eventTime:focus {
+    background: #fff url('../images/time.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.create-block input#eventVenue {
+    background: #fff url('../images/venue.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.create-block input#eventVenue:focus {
+    background: #fff url('../images/venue.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.create-block input#eventCategory {
+    background: #fff url('../images/category.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.create-block select#eventCategory:focus {
+    background: #fff url('../images/category.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+.create-block input#eventOrganiser {
+    background: #fff url('../images/organiser.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.create-block input#eventOrganiser:focus {
+    background: #fff url('../images/organiser.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.create-block input#eventContact {
+    background: #fff url('../images/mobile.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.create-block input#eventContact:focus {
+    background: #fff url('../images/mobile.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.create-block input#eventBudget {
+    background: #fff url('../images/budget.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.create-block input#eventBudget:focus {
+    background: #fff url('../images/budget.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+.create-block input#eventAbout {
+    background: #fff url('../images/about.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.create-block input#eventAbout:focus {
+    background: #fff url('../images/about.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+
+.create-block input:active, .create-block input:focus {
+    border: 1px solid #ffba00;
+}
+
+.create-block button {
+    width: 100%;
+    height: 40px;
+    background: rgb(250, 157, 7);
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ffa700;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Montserrat;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.create-block button:hover {
+    background: #ff6c00;
+}
+
+select:required:invalid {
+  color: grey;
+}
+
+option[value=""][disabled] {
+  display: none;
+}
+
+option {
+  color: grey;
+   background-size: 16px 80px;
+}
+
+#footernote{
+    color:white;
+}
+
+select[type=text]::-webkit-inner-spin-button{
+	-webkit-appearance: none;
+	margin =0;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+	-webkit-appearance: none;
+	margin =0;
+}
+
+input[type=date]::-webkit-inner-spin-button
+{
+	-webkit-appearance: none;
+	display :none;
+}
+
+input[type=time]::-webkit-inner-spin-button
+{
+	-webkit-appearance: none;
+	display :none;
+	margin= 0;
+}
+
